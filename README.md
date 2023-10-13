@@ -1,26 +1,5 @@
 # demo-route-controllers-and-template
 
-[Short description of the addon.]
+This repo demonstrates how to configure routes, controllers, and route-templates in v2 addons.
 
-## Compatibility
-
-- Ember.js v4.8 or above
-- Embroider or ember-auto-import v2
-
-## Installation
-
-```
-ember install demo-route-controllers-and-template
-```
-
-## Usage
-
-[Longer description of how to use the addon in apps.]
-
-## Contributing
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
+However, relying on "app-namespace-merging" is whacky, and should be avoided. Prefer direct component inovcation as it's easier to discover where things are defined.
